@@ -1,4 +1,4 @@
-const { onCall, firestore, responseError } = require('./../bootload');
+const { onCall, firestore, responseError } = require('../firebaseTools');
 const { looper } = require("./../utils/tools");
 
 const handleGetPreferedDestinations = onCall(async (data, context) => {
